@@ -10,6 +10,3 @@ def hello_world():
 def api():
     data = {'message': 'This is a sample Flask REST API!'}
     return jsonify(data)
-
-if __name__ == '__main__':
-    app.run(debug=True, port=8080)
